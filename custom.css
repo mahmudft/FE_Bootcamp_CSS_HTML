@@ -32,7 +32,46 @@ input[placeholder="email"]:disabled{
     border: 1px solid red;
 }
 
+input[placeholder="email"]:focus{
+    box-shadow: 10px 5px 5px palegreen;
+}
+
 input[name="check"]:checked {
     border: none;
     outline: 2px dashed sandybrown;
 }
+
+input[name="description"]:valid {
+    background: pink;
+}
+
+input[name="description"]:invalid {
+   border: none;
+   outline: 1px solid rgb(255, 75, 4);
+   
+
+}
+
+footer, main, section {
+    border: 1px solid green;
+    margin: 20px;
+    padding: 10px;
+    color: chocolate;
+}
+
+footer:target {
+    color: dodgerblue;
+}
+
+#main:target {
+    color:rebeccapurple;
+}
+
+
+:is(.is_div) :is(p, span){
+    background: red;
+}
+
+/* .is_div p, .is_div span {
+    color: green;
+} */

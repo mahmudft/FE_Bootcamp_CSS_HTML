@@ -1,0 +1,38 @@
+@import url(base.css);
+
+/* a[title]{
+    text-decoration: none;
+}
+a[href^="http" i]{
+    background-color: teal;
+}
+
+a[class*="logo"]{
+    color: yellow;
+} */
+
+.kvadrat, .p_below{
+    background: cornflowerblue;
+}
+
+/* .paragh_div > span{
+    color: red;
+} */
+
+p ~ span {
+    color: blueviolet;
+}
+
+code + span{
+    color: yellow;
+}
+
+
+input[placeholder="email"]:disabled{
+    border: 1px solid red;
+}
+
+input[name="check"]:checked {
+    border: none;
+    outline: 2px dashed sandybrown;
+}

@@ -1,0 +1,89 @@
+@import url('base.css');
+
+* {
+    font-size: 20px;
+}
+
+:root {
+    --success: green;
+    --error: red;
+    --size: 17px;
+}
+
+p {
+    /* font-size: 15px; */
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid lightblue;
+    padding: 3px;
+    border-radius: 8px;
+    background-color: green;
+    color: white;
+}
+p:hover{
+    cursor:wait;
+}
+
+p:nth-child(2n){
+    color: red;
+}
+
+p::first-letter{
+    color: blue;
+}
+
+/* a:hover{
+    list-style: none;
+    color: orangered;
+} */
+
+#spe_div{
+    justify-content: center;
+    border-radius: 50%;
+    width: 50%;
+    /* padding-left: 40%; */
+}
+
+a:visited {
+    color: none;
+}
+
+a:active {
+    color: black;
+}
+
+img{
+    opacity: 1;
+}
+
+/* 
+px -- stabil
+
+em ---
+rem
+vw viewport width
+vh viewport height
+%
+
+
+*/
+
+div {
+    /* width: 100%; */
+    border: 1px solid var(--success);
+    margin: 20px;
+    padding-left: 20px;
+    font-size: 10px;
+}
+
+ul {
+    list-style: none;
+    color: red;
+    background-color: aquamarine;
+    width: max-content;
+    line-height: 50px;
+    text-transform: uppercase;
+}

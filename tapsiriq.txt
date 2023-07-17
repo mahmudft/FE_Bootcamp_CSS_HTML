@@ -1,0 +1,13 @@
+navbar 
+link - (5) düymə şəkilində 
+klikliyəndə növbəti pəncərədə açılısın
+linklərin üzərinə gələndəə
+cursor dəyişsin 
+rəng dəyişsin
+
+main content olsun (border)
+ kənarları oval - 16px
+
+ 
+
+

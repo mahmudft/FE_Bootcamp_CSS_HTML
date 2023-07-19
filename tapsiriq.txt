@@ -1,1 +1,22 @@
 
+Form yaratmaq + submit düyməsi ilə
+
+  username -- 5 < x < 20
+  password -- 8 < x < &
+  email - required 
+  checkbox - (Subscribe newsletter)  -- psedua selector rengin dəyişmək
+  radiobox - 3 dənə -- yalnız birin  seçmək olsun
+
+  select elelmenti
+
+  psudo class
+  :focus
+  :valid
+  :in-range
+
+
+
+  düyməyə vuranda aşağıdakı
+
+  təsdiq mesajı sahəsinə düşsün 
+

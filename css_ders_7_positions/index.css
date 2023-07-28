@@ -1,0 +1,96 @@
+/* .main_div{
+    display: inline-flex;
+}
+
+
+.inline_elem{
+    display: inline-block;
+}
+
+
+.positive{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin-top: 10px;
+    margin-left: 20px ;
+} */
+
+/* /* .third{
+    background-color: black;
+    width: 250px;
+} */
+/* 
+.second{
+
+    background-color: red;
+    position: sticky;
+    top: 0px;
+}  */
+
+
+/* .sticky_bar{
+    position: sticky;
+    top: 0px;
+    background-color: darkorange;
+} */
+
+
+
+
+/* 
+
+position: | static | relative | absolute | sticky | fixed
+
+*/
+
+
+/* 
+.media_div p{
+    position:absolute;
+    top: 0px;
+    left: 280px;
+    color: white;
+
+} */
+
+
+/* .box_2{
+    position: relative;
+} */
+
+.entry{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    color: black;
+}
+.divy{
+    /* position: relative;
+    top: 25px;
+    left: 35px; */
+    /* position: fixed;
+    background-color: darkblue;
+    color: white; */
+     position:  sticky;
+     top: 0px;
+     background-color: brown;
+    
+    
+
+    
+}
+
+
+.task{
+    position: sticky;
+    top: 0px;
+    background-color: lightgreen;
+    
+
+    
+}
+

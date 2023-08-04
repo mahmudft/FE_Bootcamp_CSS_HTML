@@ -1,0 +1,48 @@
+
+#colors(){
+    primary: blue;
+    error: red;
+    warning: yellow;
+}
+
+@color: green;
+@width: 200px;
+@height: 400px;
+.container {
+    background-color: @color;
+    .border();
+    @media (min-width: 800px) {
+        width: 70vw;
+        @media (min-resolution: 52dpi) {
+            background-color: crimson;            
+        }
+    }
+    p {
+        background-color: red;
+    }
+    span {
+        background-color: coral;
+    }
+    &:hover{
+        background-color: #colors()[primary];
+    }
+}
+
+
+
+.main{
+    .border();
+}
+
+
+
+.border {
+    width: @width;
+    height: @height+200px;
+    border: 2px solid black;
+}
+
+
+
+
+md   sm   lg

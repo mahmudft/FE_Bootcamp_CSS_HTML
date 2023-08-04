@@ -11,6 +11,7 @@
     } */
 
     50% {
+      box-shadow: 10px 5px 5px black;
       transform: translateY(100px);
     }
 }

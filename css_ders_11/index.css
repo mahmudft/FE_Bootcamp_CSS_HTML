@@ -1,0 +1,90 @@
+/* .container {
+  background-color:gold;
+  border: 1px solid lightseagreen;
+} */
+
+/* #div1{
+  top: 50px;
+  width: 100%;
+  height: 200px;
+  background-color:green;
+  color: white;
+}
+
+#div2{
+  top: 100px;
+  width: 50vw;
+  left: 20%;
+  height: 35vh;
+  background-color:darkslateblue;
+  color: white;
+}
+
+#div3{
+  width:100%;
+  top: 150px;  
+  height: 300px;
+  background-color: aqua;
+  color: white;
+} */
+
+/* .container p{
+  width: 50vw;
+}
+
+.container::-webkit-scrollbar{
+  width: 25px;
+}
+
+.container::-webkit-scrollbar-thumb{
+  background-color: aqua;
+  outline: 1px solid orange;
+  width: 5px;
+  box-shadow: -42px -28px 0px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -42px -28px 0px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -42px -28px 0px 0px rgba(0,0,0,0.75);
+}
+
+.container::-webkit-scrollbar-track{
+  
+  box-shadow: -42px -28px 0px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -42px -28px 0px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -42px -28px 0px 0px rgba(0,0,0,0.75);
+} */
+
+
+/* section {
+  box-sizing: border-box;
+  border: 1px solid blue;
+  width: 100%;
+  overflow: auto;
+}
+
+div {
+  margin: 5px;
+  width: 50px;
+  height: 150px;
+}
+
+.left {
+  float: left;
+  background: pink;
+}
+
+.right {
+  background: cyan;
+}
+
+.span_tag::after{
+  content: "seen";
+  color: red;
+}
+
+.span_tag::before{
+  content: "++++";
+  color: green;
+} */
+
+img{
+  filter: blur(5px);
+}
